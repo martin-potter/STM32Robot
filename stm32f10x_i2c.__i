@@ -1,0 +1,1 @@
+-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I.\core -I.\user -I.\lib\inc -I.\op -I "E:\keil\ARM\INC" -I "E:\keil\ARM\INC\ST\STM32F10x" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o "stm32f10x_i2c.o" --omf_browse "stm32f10x_i2c.crf" --depend "stm32f10x_i2c.d" "lib\src\stm32f10x_i2c.c"
